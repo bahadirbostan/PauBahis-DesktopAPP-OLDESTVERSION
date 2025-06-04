@@ -5,8 +5,8 @@ import java.net.Socket;
 public class Client {
     private static User loggedInUser;
 
-    private static final String SERVER_ADDRESS = "95.214.177.78";
-    private static final int SERVER_PORT = 8080;
+    private static final String SERVER_ADDRESS = ""; // SERVER'INIZIN IP ADRESI.
+    private static final int SERVER_PORT = 2000 ; //SERVER'INIZIN ACIK OLAN PORTU.
 
     public static void startClient() {
 

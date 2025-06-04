@@ -21,8 +21,8 @@ public class pane_canliDestekController {
     @FXML
     private Button button_sohbet_sohbettencik;
 
-    private static final String SERVER_ADDRESS = "95.21i4.177.78";
-    private static final int SERVER_PORT = 8081;
+    private static final String SERVER_ADDRESS = ""; //VDS SERVERININ IP ADRESI BURAYA GIRILECEKTIR
+    private static final int SERVER_PORT = 2000 ; //PORT DA BURAYA GIRILECEKTIR
 
     private BufferedWriter writer;
     private BufferedReader reader;

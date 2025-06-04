@@ -9,10 +9,11 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DatabaseConnection {
-    public static final String URL = "jdbc:sqlserver://95.214.177.78:1433;databaseName=pauBahis;encrypt=true;trustServerCertificate=true";
-    public static final String USER = "user";
-    public static final String PASSWORD = "user";
+public class DatabaseConnection { //SIZ WEB API KULLANARAK DATABASE'E VE CANLI DESTEK GIBI MODULLERE BAGLANTI SAGLAYIN
+    //BU HALIYLE OLABILDIGINCE GUVENLIK RISKI OLUSTURUYOR.
+    public static final String URL = "jdbc:sqlserver://***.***.*.*;databaseName=pauBahis;encrypt=true;trustServerCertificate=true";
+    public static final String USER = "*****";
+    public static final String PASSWORD = "*********";
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
