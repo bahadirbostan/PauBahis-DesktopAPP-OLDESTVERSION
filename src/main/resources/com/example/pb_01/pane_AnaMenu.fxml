@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorpane_centerpane_anamenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pb_01.PaneControllers.pane_maclar">
+   <children>
+      <VBox prefHeight="576.0" prefWidth="742.0" style="-fx-background-color: #E4E4E4;">
+         <children>
+            <ScrollPane fx:id="scrollpane_anamenu_bahisler" maxHeight="-Infinity" prefHeight="577.0" prefWidth="858.0" style="-fx-background-color: #E4E4E4;" VBox.vgrow="ALWAYS">
+               <content>
+                  <VBox fx:id="vbox_anamenu_bahisler" prefHeight="1237.0" prefWidth="727.0">
+                     <children>
+                        <HBox fx:id="hbox_mac1" alignment="CENTER_LEFT" prefHeight="106.0" prefWidth="740.0">
+                           <children>
+                              <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="60.0" prefWidth="13.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                              <VBox alignment="TOP_CENTER" prefHeight="106.0" prefWidth="40.0">
+                                 <children>
+                                    <Label alignment="CENTER" opacity="0.17" prefHeight="14.0" prefWidth="34.0" text="1   ">
+                                       <font>
+                                          <Font name="Augustus" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="22.0" prefWidth="34.0" visible="false" />
+                                    <ImageView fitHeight="51.0" fitWidth="22.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8-football-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label fx:id="macSira1_label_takimAd1" alignment="CENTER" prefHeight="64.0" prefWidth="102.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="64.0" prefWidth="39.0" text="-">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="macSira1_label_takimAd2" prefHeight="64.0" prefWidth="119.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="50.0" prefWidth="9.0" />
+                              <HBox prefHeight="106.0" prefWidth="443.0">
+                                 <children>
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira1_button_15ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_15ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira1_button_25ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_25ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="2.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira1_button_15alt" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_15alt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="34.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Alt" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="98.0" prefWidth="49.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira1_button_ms1" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_ms1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 1" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira1_button_msX" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_msX" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS X" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira1_button_ms2" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_ms2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 2" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <Separator prefHeight="19.0" prefWidth="740.0" />
+                        <HBox fx:id="hbox_mac2" alignment="CENTER_LEFT" prefHeight="106.0" prefWidth="740.0">
+                           <children>
+                              <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="60.0" prefWidth="13.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                              <VBox alignment="TOP_CENTER" prefHeight="106.0" prefWidth="40.0">
+                                 <children>
+                                    <Label alignment="CENTER" opacity="0.17" prefHeight="14.0" prefWidth="34.0" text="2   ">
+                                       <font>
+                                          <Font name="Augustus" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="22.0" prefWidth="34.0" visible="false" />
+                                    <ImageView fitHeight="51.0" fitWidth="22.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8-football-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label fx:id="macSira2_label_takimAd1" alignment="CENTER" prefHeight="64.0" prefWidth="102.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="64.0" prefWidth="39.0" text="-">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="macSira2_label_takimAd2" prefHeight="64.0" prefWidth="119.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="50.0" prefWidth="9.0" />
+                              <HBox prefHeight="106.0" prefWidth="443.0">
+                                 <children>
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira2_button_15ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira2_label_15ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira2_button_25ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira2_label_25ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="2.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira2_button_15alt" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira2_label_15alt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="34.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Alt" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="98.0" prefWidth="49.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira2_button_ms1" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira2_label_ms1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 1" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira2_button_msX" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira2_label_msX" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS X" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira2_button_ms2" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira2_label_ms2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 2" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <Separator prefHeight="19.0" prefWidth="740.0" />
+                        <HBox fx:id="hbox_mac3" alignment="CENTER_LEFT" prefHeight="106.0" prefWidth="740.0">
+                           <children>
+                              <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="60.0" prefWidth="13.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                              <VBox alignment="TOP_CENTER" prefHeight="106.0" prefWidth="40.0">
+                                 <children>
+                                    <Label alignment="CENTER" opacity="0.17" prefHeight="14.0" prefWidth="34.0" text="3   ">
+                                       <font>
+                                          <Font name="Augustus" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="22.0" prefWidth="34.0" visible="false" />
+                                    <ImageView fitHeight="51.0" fitWidth="22.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8-football-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label fx:id="macSira3_label_takimAd1" alignment="CENTER" prefHeight="64.0" prefWidth="102.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="64.0" prefWidth="33.0" text="-">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="macSira3_label_takimAd2" prefHeight="64.0" prefWidth="119.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="50.0" prefWidth="9.0" />
+                              <HBox prefHeight="106.0" prefWidth="443.0">
+                                 <children>
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira3_button_15ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira3_label_15ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira3_button_25ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira3_label_25ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="2.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira3_button_15alt" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira3_label_15alt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="34.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Alt" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="98.0" prefWidth="49.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira3_button_ms1" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira3_label_ms1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 1" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira3_button_msX" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira3_label_msX" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS X" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira3_button_ms2" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira3_label_ms2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 2" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <Separator prefHeight="19.0" prefWidth="740.0" />
+                        <HBox fx:id="hbox_mac4" alignment="CENTER_LEFT" prefHeight="106.0" prefWidth="740.0">
+                           <children>
+                              <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="60.0" prefWidth="13.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                              <VBox alignment="TOP_CENTER" prefHeight="106.0" prefWidth="40.0">
+                                 <children>
+                                    <Label alignment="CENTER" opacity="0.17" prefHeight="14.0" prefWidth="34.0" text="4   ">
+                                       <font>
+                                          <Font name="Augustus" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="22.0" prefWidth="34.0" visible="false" />
+                                    <ImageView fitHeight="51.0" fitWidth="22.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8-football-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label fx:id="macSira4_label_takimAd1" alignment="CENTER" prefHeight="64.0" prefWidth="102.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="64.0" prefWidth="39.0" text="-">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="macSira4_label_takimAd2" prefHeight="64.0" prefWidth="119.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="50.0" prefWidth="9.0" />
+                              <HBox prefHeight="106.0" prefWidth="443.0">
+                                 <children>
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira4_button_15ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira4_label_15ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira4_button_25ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira4_label_25ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="2.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira4_button_15alt" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira4_label_15alt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="34.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Alt" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="98.0" prefWidth="49.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira4_button_ms1" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira4_label_ms1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 1" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira4_button_msX" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira4_label_msX" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS X" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira4_button_ms2" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira4_label_ms2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 2" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <Separator prefHeight="19.0" prefWidth="740.0" />
+                        <HBox fx:id="hbox_mac5" alignment="CENTER_LEFT" prefHeight="106.0" prefWidth="740.0">
+                           <children>
+                              <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="60.0" prefWidth="13.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                              <VBox alignment="TOP_CENTER" prefHeight="106.0" prefWidth="40.0">
+                                 <children>
+                                    <Label alignment="CENTER" opacity="0.17" prefHeight="14.0" prefWidth="34.0" text="5   ">
+                                       <font>
+                                          <Font name="Augustus" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="22.0" prefWidth="34.0" visible="false" />
+                                    <ImageView fitHeight="51.0" fitWidth="22.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8-football-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label fx:id="macSira5_label_takimAd1" alignment="CENTER" prefHeight="64.0" prefWidth="102.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="64.0" prefWidth="39.0" text="-">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="macSira5_label_takimAd2" prefHeight="64.0" prefWidth="119.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="50.0" prefWidth="9.0" />
+                              <HBox prefHeight="106.0" prefWidth="443.0">
+                                 <children>
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira5_button_15ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira5_label_15ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira5_button_25ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira5_label_25ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="2.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira5_button_15alt" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira5_label_15alt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="34.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Alt" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="98.0" prefWidth="49.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira5_button_ms1" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira5_label_ms1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 1" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira5_button_msX" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira5_label_msX" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS X" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira5_button_ms2" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira5_label_ms2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 2" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <Separator prefHeight="19.0" prefWidth="740.0" />
+                        <HBox fx:id="hbox_mac6" alignment="CENTER_LEFT" prefHeight="106.0" prefWidth="740.0">
+                           <children>
+                              <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="60.0" prefWidth="13.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                              <VBox alignment="TOP_CENTER" prefHeight="106.0" prefWidth="40.0">
+                                 <children>
+                                    <Label alignment="CENTER" opacity="0.17" prefHeight="14.0" prefWidth="34.0" text="6   ">
+                                       <font>
+                                          <Font name="Augustus" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="22.0" prefWidth="34.0" visible="false" />
+                                    <ImageView fitHeight="51.0" fitWidth="22.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8-football-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label fx:id="macSira6_label_takimAd1" alignment="CENTER" prefHeight="64.0" prefWidth="102.0" text="TAKIM1">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="64.0" prefWidth="39.0" text="-">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="macSira6_label_takimAd2" prefHeight="64.0" prefWidth="119.0" text="TAKIM2">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="50.0" prefWidth="9.0" />
+                              <HBox prefHeight="106.0" prefWidth="443.0">
+                                 <children>
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira6_button_15ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira6_label_15ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="1.45">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira6_button_25ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_25ust5" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="2.13">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label fx:id="macSira6_label_25ust" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="2.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira6_button_15alt" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_15alt5" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="34.0" text="4.26">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label fx:id="macSira6_label_15alt" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Alt" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="98.0" prefWidth="49.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira6_button_ms1" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira6_label_ms1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="1.35">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 1" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira6_button_msX" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_msX5" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="2.54">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label fx:id="macSira6_label_msX" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS X" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira6_button_ms2" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira6_label_ms2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="3.18">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 2" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <Separator prefHeight="19.0" prefWidth="740.0" />
+                        <HBox fx:id="hbox_mac7" alignment="CENTER_LEFT" prefHeight="106.0" prefWidth="740.0">
+                           <children>
+                              <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="60.0" prefWidth="13.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                              <VBox alignment="TOP_CENTER" prefHeight="106.0" prefWidth="40.0">
+                                 <children>
+                                    <Label alignment="CENTER" opacity="0.17" prefHeight="14.0" prefWidth="34.0" text="7   ">
+                                       <font>
+                                          <Font name="Augustus" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="22.0" prefWidth="34.0" visible="false" />
+                                    <ImageView fitHeight="51.0" fitWidth="22.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8-football-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label fx:id="macSira7_label_takimAd1" alignment="CENTER" prefHeight="64.0" prefWidth="102.0" text="TAKIM1">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="64.0" prefWidth="39.0" text="-">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="macSira7_label_takimAd2" prefHeight="64.0" prefWidth="119.0" text="TAKIM2">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="50.0" prefWidth="9.0" />
+                              <HBox prefHeight="106.0" prefWidth="443.0">
+                                 <children>
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira7_button_15ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira7_label_15ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="1.45">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira7_button_25ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira7_label_25ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="2.13">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="2.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira7_button_15alt" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira7_label_15alt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="34.0" text="4.26">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Alt" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="98.0" prefWidth="49.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira7_button_ms1" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira7_label_ms1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="1.35">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 1" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira7_button_msX" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira7_label_msX" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="2.54">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS X" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira7_button_ms2" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira7_label_ms2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="3.18">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 2" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <Separator prefHeight="19.0" prefWidth="740.0" />
+                        <HBox fx:id="hbox_mac8" alignment="CENTER_LEFT" prefHeight="106.0" prefWidth="740.0">
+                           <children>
+                              <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="60.0" prefWidth="13.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                              <VBox alignment="TOP_CENTER" prefHeight="106.0" prefWidth="40.0">
+                                 <children>
+                                    <Label alignment="CENTER" opacity="0.17" prefHeight="14.0" prefWidth="34.0" text="8   ">
+                                       <font>
+                                          <Font name="Augustus" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="22.0" prefWidth="34.0" visible="false" />
+                                    <ImageView fitHeight="51.0" fitWidth="22.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8-football-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label fx:id="macSira8_label_takimAd1" alignment="CENTER" prefHeight="64.0" prefWidth="102.0" text="TAKIM1">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="64.0" prefWidth="39.0" text="-">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="macSira8_label_takimAd2" prefHeight="64.0" prefWidth="119.0" text="TAKIM2">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="50.0" prefWidth="9.0" />
+                              <HBox prefHeight="106.0" prefWidth="443.0">
+                                 <children>
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira8_button_15ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira8_label_15ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="1.45">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira8_button_25ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira8_label_25ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="2.13">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="2.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira8_button_15alt" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira8_label_15alt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="34.0" text="4.26">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Alt" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="98.0" prefWidth="49.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira8_button_ms1" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira8_label_ms1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="1.35">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 1" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira8_button_msX" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira8_label_msX" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="2.54">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS X" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira8_button_ms2" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira8_label_ms2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="3.18">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 2" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <Separator prefHeight="19.0" prefWidth="740.0" />
+                        <HBox fx:id="hbox_mac9" alignment="CENTER_LEFT" prefHeight="106.0" prefWidth="740.0">
+                           <children>
+                              <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="60.0" prefWidth="13.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                              <VBox alignment="TOP_CENTER" prefHeight="106.0" prefWidth="40.0">
+                                 <children>
+                                    <Label alignment="CENTER" opacity="0.17" prefHeight="14.0" prefWidth="34.0" text="9   ">
+                                       <font>
+                                          <Font name="Augustus" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="22.0" prefWidth="34.0" visible="false" />
+                                    <ImageView fitHeight="51.0" fitWidth="22.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8-football-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label fx:id="macSira9_label_takimAd1" alignment="CENTER" prefHeight="64.0" prefWidth="102.0" text="TAKIM1">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="64.0" prefWidth="39.0" text="-">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="macSira9_label_takimAd2" prefHeight="64.0" prefWidth="119.0" text="TAKIM2">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="50.0" prefWidth="9.0" />
+                              <HBox prefHeight="106.0" prefWidth="443.0">
+                                 <children>
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira9_button_15ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira9_label_15ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="1.45">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira9_button_25ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira9_label_25ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="2.13">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="2.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira9_button_15alt" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira9_label_15alt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="34.0" text="4.26">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Alt" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="98.0" prefWidth="49.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira9_button_ms1" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira9_label_ms1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="1.35">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 1" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira9_button_msX" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira9_label_msX" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="2.54">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS X" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira9_button_ms2" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira9_label_ms2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="3.18">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 2" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <Separator prefHeight="19.0" prefWidth="740.0" />
+                        <HBox fx:id="hbox_mac10" alignment="CENTER_LEFT" prefHeight="106.0" prefWidth="740.0">
+                           <children>
+                              <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="60.0" prefWidth="13.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                              <VBox alignment="TOP_CENTER" prefHeight="106.0" prefWidth="40.0">
+                                 <children>
+                                    <Label alignment="CENTER" opacity="0.17" prefHeight="14.0" prefWidth="34.0" text="10  ">
+                                       <font>
+                                          <Font name="Augustus" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="22.0" prefWidth="34.0" visible="false" />
+                                    <ImageView fitHeight="51.0" fitWidth="22.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8-football-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label fx:id="macSira10_label_takimAd1" alignment="CENTER" prefHeight="64.0" prefWidth="102.0" text="TAKIM1">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="64.0" prefWidth="39.0" text="-">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="macSira10_label_takimAd2" prefHeight="64.0" prefWidth="119.0" text="TAKIM2">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="50.0" prefWidth="9.0" />
+                              <HBox prefHeight="106.0" prefWidth="443.0">
+                                 <children>
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira10_button_15ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira10_label_15ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="1.45">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira10_button_25ust" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira10_label_25ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="2.13">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="2.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira10_button_15alt" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira10_label_15alt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="34.0" text="4.26">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Alt" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="98.0" prefWidth="49.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira10_button_ms1" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira10_label_ms1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="1.35">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 1" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira10_button_msX" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira10_label_msX" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="2.54">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS X" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button fx:id="macSira10_button_ms2" mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira10_label_ms2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0" text="3.18">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 2" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

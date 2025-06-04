@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="742.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pb_01.AdminPanel.pane_adminPanel_bahisDuzenleController">
+   <children>
+      <TabPane prefHeight="576.0" prefWidth="742.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Güncel Bahisleri Düzenle">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <HBox fx:id="hbox_mac1" alignment="CENTER_LEFT" layoutX="1.0" layoutY="353.0" prefHeight="106.0" prefWidth="740.0" style="-fx-border-color: black; -fx-border-width: 1px 0px;">
+                           <children>
+                              <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="60.0" prefWidth="13.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                              <VBox alignment="TOP_CENTER" prefHeight="106.0" prefWidth="40.0">
+                                 <children>
+                                    <Label fx:id="label_guncellenmisbahis_siraNo" alignment="CENTER" opacity="0.17" prefHeight="14.0" prefWidth="34.0" text="1   ">
+                                       <font>
+                                          <Font name="Augustus" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="22.0" prefWidth="34.0" visible="false" />
+                                    <ImageView fitHeight="51.0" fitWidth="22.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8-football-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label fx:id="label_guncellenmisbahis_takimAd1" alignment="CENTER" prefHeight="64.0" prefWidth="102.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="64.0" prefWidth="39.0" text="-">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="label_guncellenmisbahis_takimAd2" prefHeight="64.0" prefWidth="119.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="50.0" prefWidth="9.0" />
+                              <HBox prefHeight="106.0" prefWidth="443.0">
+                                 <children>
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="label_guncellenmisbahis_15ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="label_guncellenmisbahis_25ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="2.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="label_guncellenmisbahis_15alt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="34.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Alt" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="98.0" prefWidth="49.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="label_guncellenmisbahis_ms1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 1" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="label_guncellenmisbahis_msX" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS X" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="label_guncellenmisbahis_ms2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 2" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="hbox_mac12" alignment="CENTER_LEFT" layoutX="2.0" layoutY="167.0" prefHeight="106.0" prefWidth="740.0" style="-fx-border-color: black; -fx-border-width: 1px 0px;">
+                           <children>
+                              <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="60.0" prefWidth="13.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                              <VBox alignment="TOP_CENTER" prefHeight="106.0" prefWidth="40.0">
+                                 <children>
+                                    <Label fx:id="label_mevcutbahis_siraNo" alignment="CENTER" opacity="0.17" prefHeight="14.0" prefWidth="34.0" text="1   ">
+                                       <font>
+                                          <Font name="Augustus" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="22.0" prefWidth="34.0" visible="false" />
+                                    <ImageView fitHeight="51.0" fitWidth="22.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8-football-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label fx:id="label_mevcutbahis_takimAd1" alignment="CENTER" prefHeight="64.0" prefWidth="102.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="64.0" prefWidth="39.0" text="-">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="label_mevcutbahis_takimAd2" prefHeight="64.0" prefWidth="119.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="50.0" prefWidth="9.0" />
+                              <HBox prefHeight="106.0" prefWidth="443.0">
+                                 <children>
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="label_mevcutbahis_15ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="label_mevcutbahis_25ust" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="2.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="label_mevcutbahis_15alt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="34.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Alt" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="98.0" prefWidth="49.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="label_mevcutbahis_ms1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 1" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="label_mevcutbahis_msX" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS X" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="label_mevcutbahis_ms2" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 2" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <Label alignment="CENTER" layoutY="135.0" prefHeight="18.0" prefWidth="742.0" text="MEVCUT BAHIS GORUNUMU">
+                           <font>
+                              <Font name="Augustus" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutY="313.0" prefHeight="18.0" prefWidth="742.0" text="GUncellenimis bahıs gorunumu">
+                           <font>
+                              <Font name="Augustus" size="16.0" />
+                           </font>
+                        </Label>
+                        <HBox layoutY="14.0" prefHeight="100.0" prefWidth="742.0">
+                           <children>
+                              <Separator orientation="VERTICAL" prefHeight="100.0" prefWidth="5.0" />
+                              <VBox prefHeight="100.0" prefWidth="81.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="43.0" prefWidth="106.0" text="SIRA NO">
+                                       <font>
+                                          <Font name="Sitka Text" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="textfield_bahisduzenle_siraNo" prefHeight="28.0" prefWidth="100.0" promptText=" 1-10" />
+                                    <HBox alignment="CENTER" prefHeight="26.0" prefWidth="50.0">
+                                       <children>
+                                          <Button fx:id="button_bahisDuzenle_siraNoOnay" mnemonicParsing="false" onAction="#handleOnayButtonAction" prefHeight="34.0" prefWidth="46.0" style="-fx-background-color: transparent; -fx-border-color: lightgray;" text="Onay" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <Separator orientation="VERTICAL" prefHeight="100.0" prefWidth="46.0" />
+                              <VBox prefHeight="100.0" prefWidth="108.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="43.0" prefWidth="106.0" text="1. TAKIM">
+                                       <font>
+                                          <Font name="Sitka Text" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="textfield_bahisduzenle_takimAd1" prefHeight="28.0" prefWidth="100.0" promptText="TAKIM ADI" />
+                                 </children>
+                              </VBox>
+                              <Separator orientation="VERTICAL" prefHeight="200.0" />
+                              <VBox prefHeight="100.0" prefWidth="108.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="43.0" prefWidth="106.0" text="2. TAKIM">
+                                       <font>
+                                          <Font name="Sitka Text" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="textfield_bahisduzenle_takimAd2" prefHeight="28.0" prefWidth="100.0" promptText="TAKIM ADI" />
+                                 </children>
+                              </VBox>
+                              <Separator orientation="VERTICAL" prefHeight="200.0" />
+                              <VBox prefHeight="100.0" prefWidth="108.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="43.0" prefWidth="106.0" text="1.5 UST">
+                                       <font>
+                                          <Font name="Sitka Text" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="textfield_bahisduzenle_15ust" prefHeight="28.0" prefWidth="100.0" promptText="ORAN" />
+                                 </children>
+                              </VBox>
+                              <Separator orientation="VERTICAL" prefHeight="200.0" />
+                              <VBox prefHeight="100.0" prefWidth="108.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="43.0" prefWidth="106.0" text="2.5 UST">
+                                       <font>
+                                          <Font name="Sitka Text" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="textfield_bahisduzenle_25ust" prefHeight="28.0" prefWidth="100.0" promptText="ORAN" />
+                                 </children>
+                              </VBox>
+                              <Separator orientation="VERTICAL" prefHeight="200.0" />
+                              <VBox prefHeight="100.0" prefWidth="108.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="43.0" prefWidth="106.0" text="1.5 ALT">
+                                       <font>
+                                          <Font name="Sitka Text" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="textfield_bahisduzenle_15alt" prefHeight="28.0" prefWidth="100.0" promptText="ORAN" />
+                                 </children>
+                              </VBox>
+                              <Separator orientation="VERTICAL" prefHeight="200.0" />
+                              <VBox prefHeight="100.0" prefWidth="108.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="43.0" prefWidth="106.0" text="MS 1">
+                                       <font>
+                                          <Font name="Sitka Text" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="textfield_bahisduzenle_ms1" prefHeight="28.0" prefWidth="100.0" promptText="ORAN" />
+                                 </children>
+                              </VBox>
+                              <Separator orientation="VERTICAL" prefHeight="200.0" />
+                              <VBox prefHeight="100.0" prefWidth="108.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="43.0" prefWidth="106.0" text="MS x">
+                                       <font>
+                                          <Font name="Sitka Text" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="textfield_bahisduzenle_msX" prefHeight="28.0" prefWidth="100.0" promptText="ORAN" />
+                                 </children>
+                              </VBox>
+                              <Separator orientation="VERTICAL" prefHeight="200.0" />
+                              <VBox prefHeight="100.0" prefWidth="108.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="43.0" prefWidth="106.0" text="MS 2">
+                                       <font>
+                                          <Font name="Sitka Text" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="textfield_bahisduzenle_ms2" prefHeight="28.0" prefWidth="100.0" promptText="ORAN" />
+                                 </children>
+                              </VBox>
+                              <Separator orientation="VERTICAL" prefHeight="100.0" prefWidth="5.0" />
+                           </children>
+                        </HBox>
+                        <Button fx:id="button_bahisDuzenle_bahisKaydet" layoutX="613.0" layoutY="481.0" mnemonicParsing="false" onAction="#handleKaydetButtonAction" prefHeight="51.0" prefWidth="98.0" style="-fx-background-color: transparent; -fx-border-color: grey; -fx-border-width: 0px 0px 2px 0px;" text="KAYDET" />
+                        <Button fx:id="button_bahisDuzenle_bahsiSıfırla" layoutX="14.0" layoutY="481.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="98.0" style="-fx-background-color: transparent; -fx-border-color: grey; -fx-border-width: 0px 0px 2px 0px;" styleClass="selected" text="SIFIRLA" />
+                        <HBox alignment="CENTER" layoutX="659.0" layoutY="124.0" prefHeight="26.0" prefWidth="80.0" />
+                        <Button fx:id="button_bahisDuzenle_bahisYenile" layoutX="689.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleYenileButtonAction" style="-fx-background-color: transparent; -fx-border-color: grey; -fx-border-width: 0px 0px 2px 0px;" text="yenile" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+          <Tab text="Bahis Oluşturma">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <HBox fx:id="hbox_mac11" alignment="CENTER_LEFT" layoutX="1.0" layoutY="349.0" prefHeight="106.0" prefWidth="740.0" style="-fx-border-color: grey; -fx-border-width: 1px 0px;">
+                           <children>
+                              <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="60.0" prefWidth="13.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                              <VBox alignment="TOP_CENTER" prefHeight="106.0" prefWidth="40.0">
+                                 <children>
+                                    <Label fx:id="label_adminpanel_bahisDuzenle_macSirasi1" alignment="CENTER" opacity="0.17" prefHeight="14.0" prefWidth="34.0" text="1   ">
+                                       <font>
+                                          <Font name="Augustus" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator prefHeight="22.0" prefWidth="34.0" visible="false" />
+                                    <ImageView fitHeight="51.0" fitWidth="22.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8-football-48.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label fx:id="label_adminPanel_bahisDuzenle_takimAd11" alignment="CENTER" prefHeight="64.0" prefWidth="102.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="64.0" prefWidth="39.0" text="-">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="label_adminPanel_bahisDuzenle_takimAd21" prefHeight="64.0" prefWidth="119.0">
+                                 <font>
+                                    <Font name="Ubuntu Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="50.0" prefWidth="9.0" />
+                              <HBox prefHeight="106.0" prefWidth="443.0">
+                                 <children>
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_15ust1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_25ust1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="2.5 Üst" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_15alt1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="34.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="1.5 Alt" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="98.0" prefWidth="49.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_ms11" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 1" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_msX1" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS X" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Separator maxHeight="-Infinity" minHeight="1.0" minWidth="0.1" orientation="VERTICAL" prefHeight="97.0" prefWidth="14.0" style="-fx-background-color: transparent;" styleClass="transparent" stylesheets="@../../../css/styles.css" visible="false" />
+                                    <VBox prefHeight="106.0" prefWidth="51.0">
+                                       <children>
+                                          <Separator prefHeight="12.0" prefWidth="63.0" visible="false" />
+                                          <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="42.0" style="-fx-background-color: transparent; -fx-border-color: #747474;">
+                                             <graphic>
+                                                <Label fx:id="macSira1_label_ms21" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="41.0" prefWidth="46.0">
+                                                   <font>
+                                                      <Font name="Augustus" size="12.0" />
+                                                   </font>
+                                                </Label>
+                                             </graphic>
+                                          </Button>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="42.0" style="-fx-background-color: #747474;" text="MS 2" textFill="#e4e4e4">
+                                             <font>
+                                                <Font name="Palatino Linotype Bold" size="11.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="319.0" prefHeight="18.0" prefWidth="742.0" text="BAHIS ÖNIZLEME">
+                           <font>
+                              <Font name="Augustus" size="15.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="577.0" layoutY="469.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="98.0" text="ONAYLA" />
+                     </children>
+                  </AnchorPane>
+               </content></Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
