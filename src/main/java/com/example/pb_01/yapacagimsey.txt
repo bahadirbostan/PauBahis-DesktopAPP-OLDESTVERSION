@@ -1,3 +1,1 @@
-adam ms1'e bastığı zaman tıklanılan maçın id'sinden yola çıkılarak bu bilgiler buffer kuponlar tabel'ına
-aktarılacak ve daha snrasında bu buffer tabel'dan da label_oynanmışbahis'e aktarılacak eğer 1. sıra doluysa 2.'ye falan
-konularak gidilecek en sonda onayla butouna basılırsa buffer'dan çekilerek kullanıcı kuponlarına aktarılacak
+
